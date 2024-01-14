@@ -2,11 +2,11 @@
 
 ## Introduction
 
-* Presentez vous (prenom , parcours , connaissance informatique, objectif )
-* Ce qui vous a amener a cette formation ( actiris , un ami , pub )
-* Quels sont vos attente pour cette formation et quels sont vos "a priori"
+* Présentez-vous (prénom, parcours, connaissances informatiques, objectif)
+* Ce qui vous a amené à vous inscrire à cette formation (Actiris / un ami / une pub)
+* Quelles sont vos attentes pour cette formation et quels sont vos "a priori"
 
-### Installer visual studio [code](https://code.visualstudio.com/)
+### Installer Visual Studio [code](https://code.visualstudio.com/)
 
 ### Installer l'interpreteur [python](https://www.python.org/downloads/)
 
@@ -14,11 +14,11 @@
 
 ### S'entrainer à l'algorithmique sur [CodeWars](https://www.codewars.com/)
 
-## Pourquoi apprendre python en 2022 ?
+## Pourquoi apprendre python en 2024 ?
 
 * Python est adapté aux débutants
 * Python est polyvalent
-* Les postes de développeurs Python sont très demandés.
+* Les postes disponibles pour développeurs Python sont très nombreux.
 * Python bénéficie d'une communauté solidaire
 * Python est le langage de programmation qui connaît la plus forte croissance
 
@@ -35,7 +35,8 @@ C'est un language présent dans de nombreux domaines 👍
 
 En Python, on utilise le signe # pour écrire un commentaire dans notre code.
 
-L'indentation Python correspond au fait de créer des retraits au niveau de certaines lignes de code. Elle est utilisée par Python pour définir des blocs de code.Si on indente mal notre code Python, celui-ci ne s'exécutera tout simplement pas et Python renverra une erreur. dès qu'il y a une relation de dépendance, il faudra ajouter un retrait (une fabulation).
+L'indentation Python correspond au fait de créer des retraits au niveau de certaines lignes de code. Elle est utilisée par Python pour définir des blocs de code.
+Si on indente mal notre code Python, celui-ci ne s'exécutera tout simplement pas et Python renverra une erreur. Dès qu'il y a une relation de dépendance, il faudra ajouter un retrait (une fabulation).
 
 La fonction print() permet tout simplement d'afficher le message qu'on va lui passer entre ses parenthèses. A première vue, la fonction print() ne parait pas très utile, et c'est pourtant l'une des fonctions qu'on utilisera le plus.
 
@@ -48,14 +49,14 @@ Vous pouvez terminer une instruction d'impression avec n'importe quel caractère
 Une variable, dans le domaine de la programmation informatique, est un conteneur qui sert à stocker une valeur. Les variables possèdent deux caractéristiques fondamentales :
 
 * Les variables ont une durée de vie limitée, ce qui signifie qu'on ne va pas pouvoir utiliser les variables pour stocker des données de manière pérenne ;
-* La valeur d'une variable peut varier : les variables peuvent peuvent stocker différentes valeurs (la nouvelle valeur remplaçant l'ancienne).
+* La valeur d'une variable peut varier : les variables peuvent stocker différentes valeurs (la nouvelle valeur remplaçant l'ancienne).
 
 Les variables Python sont automatiquement créées au moment où on leur assigne une valeur.
 
 Le choix du nom pour nos variables est libre en Python. Il faut cependant respecter les règles usuelles suivantes :
 
 * Le nom doit commencer par une lettre ou par un underscore ;
-* Pas d'espace dans le nom d'une variable si de caractères spéciaux comme des caractères accentués ou tout autre signe;
+* Pas d'espace dans le nom d'une variable, ni de caractères spéciaux comme des caractères accentués ou tout autre signe;
 * On ne peut pas utiliser certains mots qui possèdent déjà une signification spéciale pour le langage.
 
 Les noms de variables en Python sont sensibles à la casse, ce qui signifie qu'on va faire une différence entre l'emploi de majuscules et de minuscules.
@@ -185,9 +186,9 @@ L'opérateur de répétition va nous permettre de répéter une chaine un certai
 * m+=n
 * m=n=3
 
-### 1.5 Assignez une chaine de charactere a deux variable : a = "Hello" ,b = "world" et affichez leur **concatenation**
+### 1.5 Assigner une chaine de caractères à deux variable : a = "Hello" ,b = "world" et affichez leur **concatenation**
 
-### 1.6 Ecrire un programme qui demande vos nom/prenoms, adresses et qui affiche "Bonjour *votre nom*, votre prénom et *votre adresse*"
+### 1.6 Ecrire un programme qui demande vos nom/prénoms, adresses, et qui affiche "Bonjour *votre nom*, votre prénom et *votre adresse*"
 
 ### 1.7 Ecrire un programme qui affiche la lettre majuscule "P" dans grille 7x7:
 
@@ -201,7 +202,7 @@ L'opérateur de répétition va nous permettre de répéter une chaine un certai
 *
 ```
 
-### 1.8 Ecrire un programme qui affiche la somme, la différence, le produit, le quotient et le reste de deux entiers lus ou clavier. Testez avec les valeurs 60 et 7 !
+### 1.8 Ecrire un programme qui affiche la somme, la différence, le produit, le quotient et le reste de deux entiers lus ou clavier. Tester avec les valeurs 60 et 7 !
 
 ## Listes
 
@@ -227,7 +228,7 @@ Les listes Python sont par défaut indexées. Cela signifie que chaque valeur d'
 
 Les listes possèdent des indices numériques qui commencent à 0.
 
-Pour récupérer une valeur en particulier dans une liste, on va devoir préciser le nom de la liste suivi de l'indice de cette valeur entre crochets.
+Pour récupérer une valeur en particulier dans une liste, on va devoir préciser le nom de la liste, suivi de l'indice de cette valeur entre crochets.
 
 Notez que les indices négatifs sont acceptés.
 
@@ -274,7 +275,7 @@ l
 bien
 ```
 
-A la différence des types de données simples comme les chaines qui sont immuables, les listes sont un type de données altérable ce qui signifie qu'on va pouvoir altérer leur structure ou modifier leur contenu en ajoutant, supprimant ou remplaçant des valeurs.
+A la différence des types de données simples comme les chaines, qui sont immuables, les listes sont un type de données altérable. Cela signifie qu'on va pouvoir altérer leur structure ou modifier leur contenu en ajoutant, supprimant ou remplaçant des valeurs.
 
 ```py
 prenoms= ['Michel', 'Moustafa', 'Kevin', 'Tintin', 'Sangoku']
@@ -362,7 +363,7 @@ Attention ici : il faut bien faire attention à écrire les variables qui vont r
 
 ### Exercice tuple
 
-Écrire un programme python qui créé un tuple personnage qui comprend un non, un age et deux passions puis à l'aide de parcours successifs du tuple effectuer les actions suivantes :
+Écrire un programme python qui créé un tuple personnage qui comprend un nom, un âge et deux passions, puis à l'aide de parcours successifs du tuple effectuer les actions suivantes :
 
 * Afficher le tuple
 * Afficher la valeur de passions[0]
@@ -373,7 +374,7 @@ Si vous devez traiter une collection qui ne changera pas, utilisez les tuples. E
 ## Les Dictionnaires Python
 
 Les dictionnaires (tableaux associatifs) sont un type de données Python.
-La grande différence entre les données séquentielles (listes, tuples) et les dictionnaires se situe dans la façon d'indexer les valeurs et dans la nature de l'index. Dans le cas des séquences, les différentes valeurs dont associées à des index numériques commençant à 0. Pour les dictionnaires on va pouvoir déterminer un index "key:value".
+La grande différence entre les données séquentielles (listes, tuples) et les dictionnaires se situe dans la façon d'indexer les valeurs et dans la nature de l'index. Dans le cas des séquences, les différentes valeurs dont associées à des index numériques commençant à 0. Pour les dictionnaires, on va pouvoir déterminer un index "key:value".
 
 Dans les dictionnaires, les index seront des chaînes de caractères, contrairement aux listes.
 
@@ -416,7 +417,7 @@ print(l2)
 * Les dictionnaires sont des collection d'éléments non ordonnés mais indexés avec des clefs de notre choix et altérables qui n'acceptent pas de contenir plusieurs fois le même élément ;
 * Les ensembles sont des collections d'éléments non ordonnées, non indexés et non modifiables qui n'acceptent pas de contenir plusieurs fois le même élément.
 
-# D2 Les structures de contrôle python
+# D2 Les structures de contrôle Python
 
 Une structure de contrôle est un ensemble d'instructions qui permet de contrôler l'exécution du code.
 
@@ -501,7 +502,7 @@ else:
 
 ## La condition if… elif… else en Python
 
-La condition if…elif…else (« si…sinon si…sinon ») est une structure conditionnelle encore plus complète que la condition if…else qui vannons permettre cette fois-ci d'effectuer autant de tests que l'on souhaite et ainsi de prendre en compte le nombre de cas souhaité.
+La condition if…elif…else (« si…sinon si…sinon ») est une structure conditionnelle encore plus complète que la condition if…else qui va nous permettre cette fois-ci d'effectuer autant de tests que l'on souhaite et ainsi de prendre en compte le nombre de cas souhaité.
 
 Il faut cependant faire attention à un point en particulier lorsqu'on utilise une structure Python if… elif… else : le cas où plusieurs elif possèdent un test évalué à True par Python.
 
@@ -570,13 +571,13 @@ if "Mardi" in semaine:
 
 ### 2.1 Ecrire un programme qui lit l'âge de l'utilisateur et qui affiche "Junior" pour les moins de 18 ans, "Adulte" à partir de 18 ans et "Senior" à parti de 65 ans.
 
-### 2.2 Ecrire un programme qui lit deux nombres entiers entré au clavier et qui affiche si l'un des nombres est multiple de l'autre.
+### 2.2 Ecrire un programme qui lit deux nombres entiers entrés au clavier et qui affiche si l'un des nombres est multiple de l'autre.
 
-### 2.3 Ecrire un programme qui lit quatres nombres entiers  entré au clavier puis affiche le plus petit et le plus grand de ces nombres.
+### 2.3 Ecrire un programme qui lit quatres nombres entiers entrés au clavier, puis affiche le plus petit et le plus grand de ces nombres.
 
-### 2.4 Ecrire un programme qui lit deux nombres et un caractère +,-,* ou /  entré au clavier. Suivant le caractère, le programme affiche l'opération correspondante.
+### 2.4 Ecrire un programme qui lit deux nombres et un caractère +,-,* ou /  entrés au clavier. Suivant le caractère, le programme affiche l'opération correspondante.
 
-### 2.5 Ecrire un programme qui vérifie si une année entré au clavier est bissextile. Ce sont les années divisibles par 4 mais pas par 100 ou les années divisible par 400.
+### 2.5 Ecrire un programme qui vérifie si une année entrée au clavier est bissextile. Ce sont les années divisibles par 4 mais pas par 100 ou les années divisible par 400.
 
 ### 2.6 Ecrire un programme qui lit une côte sur 10, et qui affiche :
 
@@ -632,7 +633,7 @@ for jour in semaine:
 On va pouvoir utiliser la fonction range() pour itérer sur une suite de nombres avec une boucle for.
 Dans son utilisation la plus simple, nous allons nous contenter de passer un nombre en argument (entre les parenthèses) de range().
 
-Si on précise deux nombres en arguments de cette fonction, le premier nombre servira de point de départ pour la génération de nombres tandis que le second servira de point d'arrivée (en étant exclus).
+Si on précise deux nombres en arguments de cette fonction, le premier nombre servira de point de départ pour la génération de nombres, tandis que le second servira de point d'arrivée (en étant exclus).
 
 Finalement, on peut préciser un troisième et dernier nombre en argument de range() qui nous permet de préciser son pas, c'est-à-dire l'écart entre deux nombres générés.
 
@@ -721,17 +722,17 @@ Exemple : sangoku devient `u*k*o*g*n*a*s`
 
 ## Qu'est-ce qu'une fonction ?
 
-Une fonction est un bloc de code nommé. Une fonction correspond à un ensemble d'instructions créées pour effectuer une tâche précise, regroupées ensemble et qu'on va pouvoir exécuter autant de fois qu'on le souhaite en “l'appelant” avec son nom.
+Une fonction est un bloc de code nommé. Une fonction correspond à un ensemble d'instructions créées pour effectuer une tâche précise, regroupées ensemble, et qu'on va pouvoir exécuter autant de fois qu'on le souhaite en “l'appelant” avec son nom.
 
 Il existe deux grands “types” de fonctions en Python : les fonctions prédéfinies et les fonctions créées par l'utilisateur.
 
 ### Les fonctions prédéfinies Python
 
-Les fonction prédéfinies sont des fonctions déjà créées et mises à notre disposition par Python. Dans ce cours, nous avons déjà utilisé des fonctions prédéfinies comme la fonction print() ou la fonction type() par exemple.
+Les fonctions prédéfinies sont des fonctions déjà créées et mises à notre disposition par Python. Dans ce cours, nous avons déjà utilisé des fonctions prédéfinies comme la fonction print() ou la fonction type() par exemple.
 
 En fait, ces deux fonctions sont des fonctions complexes et qui contiennent de nombreuses lignes d'instructions leur permettant d'accomplir une tâche précise : l'affichage d'un résultat ou la détermination du type d'une valeur en l'occurence.
 
-Cette complexité nous est cachée : nous n'avons qu'à appeler nos fonctions pour qu'elles fassent leur travail et n'avons pas à écrire la série d'instructions qu'elles contiennent à chaque fois et c'est tout l'intérêt des fonctions.
+Cette complexité nous est cachée : nous n'avons qu'à appeler nos fonctions pour qu'elles fassent leur travail et n'avons pas à écrire la série d'instructions qu'elles contiennent à chaque fois. C'est là tout l'intérêt des fonctions.
 
 Python, dans sa version 3.7.4, met à notre disposition quasiment 70 [fonctions](https://docs.python.org/fr/3.7/library/functions.html?highlight=round#repr) prédéfinies.
 
@@ -778,7 +779,7 @@ def somme(*args):
 somme(2,3,6)
 ```
 
-En programmation, nous voudrons souvent récupérer le résultat d'une fonction afin de l'utiliser dans le reste de notre script. L'instruction return va terminer l'exécution d'une fonction, ce qui signifie qu'on placera généralement cette instruction en fin de fonction puisque le code suivant une instruction return dans une fonction ne sera jamais lu ni exécuté.
+En programmation, nous voudrons souvent récupérer le résultat d'une fonction afin de l'utiliser dans le reste de notre script. L'instruction return va terminer l'exécution d'une fonction, ce qui signifie qu'on placera généralement cette instruction en fin de fonction puisque le code suivant une instruction return dans une fonction ne sera jamais lu, ni exécuté.
 
 ### Exemples d'utilisation de return en Python
 
@@ -807,7 +808,7 @@ print(ordonne)
 
 ### Les fonctions récursives
 
-Les fonctions récursive sont des fonctions qui s'appelle elle même dans son exécution : c'est ce qu'on appelle la récursivité.
+Les fonctions récursives sont des fonctions qui s'appellent elles-mêmes dans leur exécution : c'est ce qu'on appelle la récursivité.
 Exemple la factorielle de 4 par exemple est égale à 4 * 3 * 2 * 1.
 
 ```py
@@ -953,7 +954,7 @@ Les modules Python standards à connaitre sont les suivants :
 * La liste des nombres de 1 à n.
 * Les sous-listes de nombres impairs et pairs.
 
-### 4.2 Ecrire un programme qui lit N nombres réels et qui les affiches d'abord dans l'ordre et ensuite dans l'ordre inverse.
+### 4.2 Ecrire un programme qui lit N nombres réels et qui les affiche d'abord dans l'ordre et ensuite dans l'ordre inverse.
 
 ### 4.3 Ecrire un programme qui lit N nombres réels et qui affiche leur minimum et maximum.
 
@@ -1198,7 +1199,7 @@ pip freeze
 
 ## Web scraping avec Requests et Beautifull_soup
 
-ETL signifie extraction, transformation et chargement (Extract, Transform, Load en anglais). C'est une procédure qui "permettant d'effectuer des synchronisations massives d'information d'une source de données (le plus souvent une base de données) vers une autre" (source [Wikipédia](https://fr.wikipedia.org/wiki/Extract-transform-load)).
+ETL signifie extraction, transformation et chargement (Extract, Transform, Load en anglais). C'est une procédure qui permet d'effectuer des synchronisations massives d'information d'une source de données (le plus souvent une base de données) vers une autre" (source [Wikipédia](https://fr.wikipedia.org/wiki/Extract-transform-load)).
 
 ```shell
 pip install requests
